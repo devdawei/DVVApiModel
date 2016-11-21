@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C5F95B9DF1F5928A315CD12 /* libPods-DVVApiModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF7420467992306D7724102 /* libPods-DVVApiModel.a */; };
+		D917234B1D8D7EA000B48B2D /* EmptyController.m in Sources */ = {isa = PBXBuildFile; fileRef = D917234A1D8D7EA000B48B2D /* EmptyController.m */; };
+		D917234E1D8D7ED500B48B2D /* EmptyApiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D917234D1D8D7ED500B48B2D /* EmptyApiModel.m */; };
+		D9321BE41D8A3C740008D5FE /* OnlyRefreshController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9321BE31D8A3C740008D5FE /* OnlyRefreshController.m */; };
+		D9321BE71D8A3EAF0008D5FE /* OnlyRefreshApiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9321BE61D8A3EAF0008D5FE /* OnlyRefreshApiModel.m */; };
+		D93397771DE2EAEA00C25789 /* DVVToast.m in Sources */ = {isa = PBXBuildFile; fileRef = D93397761DE2EAEA00C25789 /* DVVToast.m */; };
+		D933977B1DE2EB1100C25789 /* DVVLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = D933977A1DE2EB1100C25789 /* DVVLoading.m */; };
+		D95D98991D84320600198658 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D95D98981D84320600198658 /* main.m */; };
+		D95D989C1D84320600198658 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D95D989B1D84320600198658 /* AppDelegate.m */; };
+		D95D98A21D84320600198658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95D98A01D84320600198658 /* Main.storyboard */; };
+		D95D98A41D84320600198658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D95D98A31D84320600198658 /* Assets.xcassets */; };
+		D95D98A71D84320600198658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95D98A51D84320600198658 /* LaunchScreen.storyboard */; };
+		D95D98B01D84323500198658 /* SearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95D98AF1D84323500198658 /* SearchController.m */; };
+		D95D98B51D84379C00198658 /* DVVNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D95D98B41D84379C00198658 /* DVVNetworkManager.m */; };
+		D95D98B81D8437FF00198658 /* DVVNetworkStatusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D95D98B71D8437FF00198658 /* DVVNetworkStatusManager.m */; };
+		D95D98BB1D84386C00198658 /* DVVNetworkConst.m in Sources */ = {isa = PBXBuildFile; fileRef = D95D98BA1D84386C00198658 /* DVVNetworkConst.m */; };
+		D9F5EBB71D85861700EAE33D /* DVVNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F5EBB61D85861700EAE33D /* DVVNetwork.m */; };
+		D9F5EBBA1D858DE000EAE33D /* DVVResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F5EBB91D858DE000EAE33D /* DVVResponseHandler.m */; };
+		D9F5EBC11D85987200EAE33D /* DVVApiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F5EBC01D85987200EAE33D /* DVVApiModel.m */; };
+		D9F5EBC51D86EE7B00EAE33D /* DVVEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F5EBC41D86EE7B00EAE33D /* DVVEmptyView.m */; };
+		D9FBF51F1D88E1CA006F40FF /* DVVApiModelNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FBF51E1D88E1CA006F40FF /* DVVApiModelNetwork.m */; };
+		D9FBF5291D88E7E5006F40FF /* DVVApiModelConst.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FBF5281D88E7E5006F40FF /* DVVApiModelConst.m */; };
+		D9FBF52C1D88E7FF006F40FF /* DVVApiModelNetworkHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FBF52B1D88E7FF006F40FF /* DVVApiModelNetworkHandler.m */; };
+		D9FBF5361D8923AC006F40FF /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FBF5351D8923AC006F40FF /* HomeController.m */; };
+		D9FBF5391D892FFF006F40FF /* SearchApiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FBF5381D892FFF006F40FF /* SearchApiModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14A7BC7A09797154B0BEC5B3 /* Pods-DVVApiModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVVApiModel.release.xcconfig"; path = "Pods/Target Support Files/Pods-DVVApiModel/Pods-DVVApiModel.release.xcconfig"; sourceTree = "<group>"; };
+		6CF7420467992306D7724102 /* libPods-DVVApiModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DVVApiModel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		986CEAAC7DC9DE163C310CAE /* Pods-DVVApiModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVVApiModel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DVVApiModel/Pods-DVVApiModel.debug.xcconfig"; sourceTree = "<group>"; };
+		D91723491D8D7EA000B48B2D /* EmptyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyController.h; sourceTree = "<group>"; };
+		D917234A1D8D7EA000B48B2D /* EmptyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyController.m; sourceTree = "<group>"; };
+		D917234C1D8D7ED500B48B2D /* EmptyApiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyApiModel.h; sourceTree = "<group>"; };
+		D917234D1D8D7ED500B48B2D /* EmptyApiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyApiModel.m; sourceTree = "<group>"; };
+		D9321BE21D8A3C740008D5FE /* OnlyRefreshController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlyRefreshController.h; sourceTree = "<group>"; };
+		D9321BE31D8A3C740008D5FE /* OnlyRefreshController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlyRefreshController.m; sourceTree = "<group>"; };
+		D9321BE51D8A3EAF0008D5FE /* OnlyRefreshApiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlyRefreshApiModel.h; sourceTree = "<group>"; };
+		D9321BE61D8A3EAF0008D5FE /* OnlyRefreshApiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlyRefreshApiModel.m; sourceTree = "<group>"; };
+		D93397751DE2EAEA00C25789 /* DVVToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVVToast.h; sourceTree = "<group>"; };
+		D93397761DE2EAEA00C25789 /* DVVToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVVToast.m; sourceTree = "<group>"; };
+		D93397791DE2EB1100C25789 /* DVVLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVVLoading.h; sourceTree = "<group>"; };
+		D933977A1DE2EB1100C25789 /* DVVLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVVLoading.m; sourceTree = "<group>"; };
+		D95D98941D84320600198658 /* DVVApiModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVVApiModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95D98981D84320600198658 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D95D989A1D84320600198658 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D95D989B1D84320600198658 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D95D98A11D84320600198658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D95D98A31D84320600198658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D95D98A61D84320600198658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D95D98A81D84320600198658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D95D98AE1D84323500198658 /* SearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchController.h; sourceTree = "<group>"; };
+		D95D98AF1D84323500198658 /* SearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchController.m; sourceTree = "<group>"; };
+		D95D98B31D84379C00198658 /* DVVNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVVNetworkManager.h; sourceTree = "<group>"; };
+		D95D98B41D84379C00198658 /* DVVNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVVNetworkManager.m; sourceTree = "<group>"; };
+		D95D98B61D8437FF00198658 /* DVVNetworkStatusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVVNetworkStatusManager.h; sourceTree = "<group>"; };
+		D95D98B71D8437FF00198658 /* DVVNetworkStatusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVVNetworkStatusManager.m; sourceTree = "<group>"; };
+		D95D98B91D84386C00198658 /* DVVNetworkConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVVNetworkConst.h; sourceTree = "<group>"; };
+		D95D98BA1D84386C00198658 /* DVVNetworkConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVVNetworkConst.m; sourceTree = "<group>"; };
+		D9F5EBB51D85861700EAE33D /* DVVNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVVNetwork.h; sourceTree = "<group>"; };
+		D9F5EBB61D85861700EAE33D /* DVVNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVVNetwork.m; sourceTree = "<group>"; };
+		D9F5EBB81D858DE000EAE33D /* DVVResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVVResponseHandler.h; sourceTree = "<group>"; };
+		D9F5EBB91D858DE000EAE33D /* DVVResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVVResponseHandler.m; sourceTree = "<group>"; };
+		D9F5EBBF1D85987200EAE33D /* DVVApiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVVApiModel.h; sourceTree = "<group>"; };
+		D9F5EBC01D85987200EAE33D /* DVVApiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVVApiModel.m; sourceTree = "<group>"; };
+		D9F5EBC31D86EE7B00EAE33D /* DVVEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVVEmptyView.h; sourceTree = "<group>"; };
+		D9F5EBC41D86EE7B00EAE33D /* DVVEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVVEmptyView.m; sourceTree = "<group>"; };
+		D9FBF51D1D88E1CA006F40FF /* DVVApiModelNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVVApiModelNetwork.h; sourceTree = "<group>"; };
+		D9FBF51E1D88E1CA006F40FF /* DVVApiModelNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVVApiModelNetwork.m; sourceTree = "<group>"; };
+		D9FBF5271D88E7E5006F40FF /* DVVApiModelConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVVApiModelConst.h; sourceTree = "<group>"; };
+		D9FBF5281D88E7E5006F40FF /* DVVApiModelConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVVApiModelConst.m; sourceTree = "<group>"; };
+		D9FBF52A1D88E7FF006F40FF /* DVVApiModelNetworkHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVVApiModelNetworkHandler.h; sourceTree = "<group>"; };
+		D9FBF52B1D88E7FF006F40FF /* DVVApiModelNetworkHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVVApiModelNetworkHandler.m; sourceTree = "<group>"; };
+		D9FBF5341D8923AC006F40FF /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		D9FBF5351D8923AC006F40FF /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		D9FBF5371D892FFF006F40FF /* SearchApiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchApiModel.h; sourceTree = "<group>"; };
+		D9FBF5381D892FFF006F40FF /* SearchApiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchApiModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D95D98911D84320600198658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5F95B9DF1F5928A315CD12 /* libPods-DVVApiModel.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		995642CD72D36E69C19DE592 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				986CEAAC7DC9DE163C310CAE /* Pods-DVVApiModel.debug.xcconfig */,
+				14A7BC7A09797154B0BEC5B3 /* Pods-DVVApiModel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D93397781DE2EB1100C25789 /* DVVLoading */ = {
+			isa = PBXGroup;
+			children = (
+				D93397791DE2EB1100C25789 /* DVVLoading.h */,
+				D933977A1DE2EB1100C25789 /* DVVLoading.m */,
+			);
+			path = DVVLoading;
+			sourceTree = "<group>";
+		};
+		D95D988B1D84320600198658 = {
+			isa = PBXGroup;
+			children = (
+				D95D98961D84320600198658 /* DVVApiModel */,
+				D95D98951D84320600198658 /* Products */,
+				995642CD72D36E69C19DE592 /* Pods */,
+				ECBF047474E2546C9111FD17 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D95D98951D84320600198658 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D95D98941D84320600198658 /* DVVApiModel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D95D98961D84320600198658 /* DVVApiModel */ = {
+			isa = PBXGroup;
+			children = (
+				D95D989A1D84320600198658 /* AppDelegate.h */,
+				D95D989B1D84320600198658 /* AppDelegate.m */,
+				D9FBF5341D8923AC006F40FF /* HomeController.h */,
+				D9FBF5351D8923AC006F40FF /* HomeController.m */,
+				D9321BE21D8A3C740008D5FE /* OnlyRefreshController.h */,
+				D9321BE31D8A3C740008D5FE /* OnlyRefreshController.m */,
+				D95D98AE1D84323500198658 /* SearchController.h */,
+				D95D98AF1D84323500198658 /* SearchController.m */,
+				D91723491D8D7EA000B48B2D /* EmptyController.h */,
+				D917234A1D8D7EA000B48B2D /* EmptyController.m */,
+				D9FBF52D1D890100006F40FF /* ApiModel */,
+				D95D98B11D84355800198658 /* Network */,
+				D95D98A01D84320600198658 /* Main.storyboard */,
+				D95D98A31D84320600198658 /* Assets.xcassets */,
+				D95D98A51D84320600198658 /* LaunchScreen.storyboard */,
+				D95D98A81D84320600198658 /* Info.plist */,
+				D95D98971D84320600198658 /* Supporting Files */,
+			);
+			path = DVVApiModel;
+			sourceTree = "<group>";
+		};
+		D95D98971D84320600198658 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D95D98981D84320600198658 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D95D98B11D84355800198658 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D95D98B21D8435C100198658 /* DVVNetwork */,
+				D9F5EBB41D8585B700EAE33D /* DVVApiModel */,
+				D9F5EBBB1D8591B200EAE33D /* DVVToast */,
+				D93397781DE2EB1100C25789 /* DVVLoading */,
+				D9F5EBC21D86EE4300EAE33D /* DVVEmptyView */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D95D98B21D8435C100198658 /* DVVNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5EBB51D85861700EAE33D /* DVVNetwork.h */,
+				D9F5EBB61D85861700EAE33D /* DVVNetwork.m */,
+				D95D98B31D84379C00198658 /* DVVNetworkManager.h */,
+				D95D98B41D84379C00198658 /* DVVNetworkManager.m */,
+				D9F5EBB81D858DE000EAE33D /* DVVResponseHandler.h */,
+				D9F5EBB91D858DE000EAE33D /* DVVResponseHandler.m */,
+				D95D98B61D8437FF00198658 /* DVVNetworkStatusManager.h */,
+				D95D98B71D8437FF00198658 /* DVVNetworkStatusManager.m */,
+				D95D98B91D84386C00198658 /* DVVNetworkConst.h */,
+				D95D98BA1D84386C00198658 /* DVVNetworkConst.m */,
+			);
+			path = DVVNetwork;
+			sourceTree = "<group>";
+		};
+		D9F5EBB41D8585B700EAE33D /* DVVApiModel */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5EBBF1D85987200EAE33D /* DVVApiModel.h */,
+				D9F5EBC01D85987200EAE33D /* DVVApiModel.m */,
+				D9FBF51D1D88E1CA006F40FF /* DVVApiModelNetwork.h */,
+				D9FBF51E1D88E1CA006F40FF /* DVVApiModelNetwork.m */,
+				D9FBF52A1D88E7FF006F40FF /* DVVApiModelNetworkHandler.h */,
+				D9FBF52B1D88E7FF006F40FF /* DVVApiModelNetworkHandler.m */,
+				D9FBF5271D88E7E5006F40FF /* DVVApiModelConst.h */,
+				D9FBF5281D88E7E5006F40FF /* DVVApiModelConst.m */,
+			);
+			path = DVVApiModel;
+			sourceTree = "<group>";
+		};
+		D9F5EBBB1D8591B200EAE33D /* DVVToast */ = {
+			isa = PBXGroup;
+			children = (
+				D93397751DE2EAEA00C25789 /* DVVToast.h */,
+				D93397761DE2EAEA00C25789 /* DVVToast.m */,
+			);
+			path = DVVToast;
+			sourceTree = "<group>";
+		};
+		D9F5EBC21D86EE4300EAE33D /* DVVEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5EBC31D86EE7B00EAE33D /* DVVEmptyView.h */,
+				D9F5EBC41D86EE7B00EAE33D /* DVVEmptyView.m */,
+			);
+			path = DVVEmptyView;
+			sourceTree = "<group>";
+		};
+		D9FBF52D1D890100006F40FF /* ApiModel */ = {
+			isa = PBXGroup;
+			children = (
+				D9321BE51D8A3EAF0008D5FE /* OnlyRefreshApiModel.h */,
+				D9321BE61D8A3EAF0008D5FE /* OnlyRefreshApiModel.m */,
+				D9FBF5371D892FFF006F40FF /* SearchApiModel.h */,
+				D9FBF5381D892FFF006F40FF /* SearchApiModel.m */,
+				D917234C1D8D7ED500B48B2D /* EmptyApiModel.h */,
+				D917234D1D8D7ED500B48B2D /* EmptyApiModel.m */,
+			);
+			path = ApiModel;
+			sourceTree = "<group>";
+		};
+		ECBF047474E2546C9111FD17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CF7420467992306D7724102 /* libPods-DVVApiModel.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D95D98931D84320600198658 /* DVVApiModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D95D98AB1D84320600198658 /* Build configuration list for PBXNativeTarget "DVVApiModel" */;
+			buildPhases = (
+				0D82C4A1E00883A412CBDD5D /* [CP] Check Pods Manifest.lock */,
+				D95D98901D84320600198658 /* Sources */,
+				D95D98911D84320600198658 /* Frameworks */,
+				D95D98921D84320600198658 /* Resources */,
+				C3CF74A028C9CE55DFF04956 /* [CP] Embed Pods Frameworks */,
+				DC7587A1004AF6FA2A10E8B5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVVApiModel;
+			productName = DVVApiModel;
+			productReference = D95D98941D84320600198658 /* DVVApiModel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D95D988C1D84320600198658 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = devdawei;
+				TargetAttributes = {
+					D95D98931D84320600198658 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D95D988F1D84320600198658 /* Build configuration list for PBXProject "DVVApiModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D95D988B1D84320600198658;
+			productRefGroup = D95D98951D84320600198658 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D95D98931D84320600198658 /* DVVApiModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D95D98921D84320600198658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95D98A71D84320600198658 /* LaunchScreen.storyboard in Resources */,
+				D95D98A41D84320600198658 /* Assets.xcassets in Resources */,
+				D95D98A21D84320600198658 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D82C4A1E00883A412CBDD5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3CF74A028C9CE55DFF04956 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DVVApiModel/Pods-DVVApiModel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC7587A1004AF6FA2A10E8B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DVVApiModel/Pods-DVVApiModel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D95D98901D84320600198658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F5EBC51D86EE7B00EAE33D /* DVVEmptyView.m in Sources */,
+				D917234E1D8D7ED500B48B2D /* EmptyApiModel.m in Sources */,
+				D95D98B01D84323500198658 /* SearchController.m in Sources */,
+				D95D989C1D84320600198658 /* AppDelegate.m in Sources */,
+				D9F5EBB71D85861700EAE33D /* DVVNetwork.m in Sources */,
+				D9321BE41D8A3C740008D5FE /* OnlyRefreshController.m in Sources */,
+				D9FBF51F1D88E1CA006F40FF /* DVVApiModelNetwork.m in Sources */,
+				D95D98991D84320600198658 /* main.m in Sources */,
+				D933977B1DE2EB1100C25789 /* DVVLoading.m in Sources */,
+				D9F5EBBA1D858DE000EAE33D /* DVVResponseHandler.m in Sources */,
+				D93397771DE2EAEA00C25789 /* DVVToast.m in Sources */,
+				D95D98BB1D84386C00198658 /* DVVNetworkConst.m in Sources */,
+				D9FBF52C1D88E7FF006F40FF /* DVVApiModelNetworkHandler.m in Sources */,
+				D917234B1D8D7EA000B48B2D /* EmptyController.m in Sources */,
+				D95D98B81D8437FF00198658 /* DVVNetworkStatusManager.m in Sources */,
+				D9FBF5361D8923AC006F40FF /* HomeController.m in Sources */,
+				D9F5EBC11D85987200EAE33D /* DVVApiModel.m in Sources */,
+				D9FBF5391D892FFF006F40FF /* SearchApiModel.m in Sources */,
+				D95D98B51D84379C00198658 /* DVVNetworkManager.m in Sources */,
+				D9321BE71D8A3EAF0008D5FE /* OnlyRefreshApiModel.m in Sources */,
+				D9FBF5291D88E7E5006F40FF /* DVVApiModelConst.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D95D98A01D84320600198658 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D95D98A11D84320600198658 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D95D98A51D84320600198658 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D95D98A61D84320600198658 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D95D98A91D84320600198658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D95D98AA1D84320600198658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D95D98AC1D84320600198658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 986CEAAC7DC9DE163C310CAE /* Pods-DVVApiModel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DVVApiModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devdawei.DVVApiModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D95D98AD1D84320600198658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A7BC7A09797154B0BEC5B3 /* Pods-DVVApiModel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DVVApiModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devdawei.DVVApiModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D95D988F1D84320600198658 /* Build configuration list for PBXProject "DVVApiModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95D98A91D84320600198658 /* Debug */,
+				D95D98AA1D84320600198658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D95D98AB1D84320600198658 /* Build configuration list for PBXNativeTarget "DVVApiModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95D98AC1D84320600198658 /* Debug */,
+				D95D98AD1D84320600198658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D95D988C1D84320600198658 /* Project object */;
+}
